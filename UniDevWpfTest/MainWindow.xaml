@@ -1,0 +1,65 @@
+﻿<Window x:Class="UniDevWpfTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UniDevWpfTest"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="768" Width="1366">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock Margin="0,0,0,5" Foreground="Gray" Text="这是一个测试项目,为了大家熟习WPF框架编程.可以在此之上进行多人交互开发的经验总结.下面分了九个格子,每个人一个进行开发." FontSize="24" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Grid Grid.Row="1" ShowGridLines="True">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <!--以下九个宫格-->
+            <!--温工-->
+            <Grid Grid.Row="0" Grid.Column="0">
+                <TextBlock Text="温工" FontSize="24" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <!--侯工-->
+            <Grid Grid.Row="0" Grid.Column="1">
+                <TextBlock Text="侯工" FontSize="24" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <!--刘工-->
+            <Grid Grid.Row="0" Grid.Column="2">
+                <TextBlock Text="刘工" FontSize="24" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <!--赵工-->
+            <Grid Grid.Row="1" Grid.Column="0">
+                <TextBlock Text="赵工" FontSize="24" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <!--陈工-->
+            <Grid Grid.Row="1" Grid.Column="1">
+                <TextBlock Text="陈工" FontSize="24" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <!--胡工-->
+            <Grid Grid.Row="1" Grid.Column="2">
+                <TextBlock Text="胡工" FontSize="24" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <!--张工-->
+            <Grid Grid.Row="2" Grid.Column="0">
+                <TextBlock Text="张工" FontSize="24" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <!--李慧强李工-->
+            <Grid Grid.Row="2" Grid.Column="1">
+                <TextBlock Text="李慧强李工" FontSize="24" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <!--赵月-->
+            <Grid Grid.Row="2" Grid.Column="2">
+                <TextBlock Text="赵月" FontSize="24" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>
