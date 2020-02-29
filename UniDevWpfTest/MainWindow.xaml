@@ -27,7 +27,6 @@
             <!--温工-->
             <Grid Grid.Row="0" Grid.Column="0">
                 <TextBlock Text="温工" FontSize="24" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                <Button x:Name="buttonTest" Content="Test" HorizontalAlignment="Left" Margin="37,40,0,0" VerticalAlignment="Top" Width="161" Height="103"/>
             </Grid>
             <!--侯工-->
             <Grid Grid.Row="0" Grid.Column="1">
@@ -35,17 +34,7 @@
             </Grid>
             <!--刘工-->
             <Grid Grid.Row="0" Grid.Column="2">
-                <StackPanel>
-                    <TextBlock Name="TB_Liu2"
-                               Text="刘工"
-                               FontSize="24"
-                               TextWrapping="Wrap"
-                               HorizontalAlignment="Center"
-                               VerticalAlignment="Center" />
-                    <TextBox>第一次修改</TextBox>
-                </StackPanel>
-
-                <!--First Edit-->
+                <TextBlock Text="刘工" FontSize="24" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             </Grid>
             <!--赵工-->
             <Grid Grid.Row="1" Grid.Column="0">
@@ -54,7 +43,6 @@
             <!--陈工-->
             <Grid Grid.Row="1" Grid.Column="1">
                 <TextBlock Text="陈工" FontSize="24" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                <Label Content="Label" HorizontalAlignment="Left" Margin="59,60,0,0" VerticalAlignment="Top"/>
             </Grid>
             <!--胡工-->
             <Grid Grid.Row="1" Grid.Column="2">
@@ -70,10 +58,7 @@
             </Grid>
             <!--赵月-->
             <Grid Grid.Row="2" Grid.Column="2">
-                <StackPanel>
-                    <TextBlock Text="赵月" FontSize="24" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                    <TextBlock Text="修改了一次"/>
-                </StackPanel>
+                <TextBlock Text="赵月" FontSize="24" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             </Grid>
         </Grid>
     </Grid>
