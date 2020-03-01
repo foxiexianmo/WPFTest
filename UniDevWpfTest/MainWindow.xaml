@@ -55,6 +55,13 @@
             <!--李慧强李工-->
             <Grid Grid.Row="2" Grid.Column="1">
                 <TextBlock Text="李慧强李工" FontSize="24" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <TextBox HorizontalAlignment="Left" Height="28" Margin="106,157,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="180" TextChanged="TextBox_TextChanged"/>
+                <TextBox>
+                    <TextBox.Text>
+                        <Binding ElementName="slider"Path="Value"Mode="OneWay"*/>
+                    </TextBox.Text>
+                </TextBox>
+                <Slider HorizontalAlignment="Left" Height="29" Margin="88,30,0,0" VerticalAlignment="Top" Width="249"/>
             </Grid>
             <!--赵月-->
             <Grid Grid.Row="2" Grid.Column="2">
